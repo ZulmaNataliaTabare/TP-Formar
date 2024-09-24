@@ -1,0 +1,54 @@
+
+/* Comentario ctrl + ]*/
+
+/* .rojo {
+    color: red;
+} con el punto elijo class
+
+p.rojo {
+    text-align: center;
+}
+
+.fondo-verde{
+    background-color: green;
+}
+
+p,h3{
+    color: rgb(4, 0, 255);
+} puedo combinar
+
+h1{
+    color: brown
+} 
+
+#título-principal{
+}   con # eligo los ID
+*/
+
+
+/* Esto sirve para formatear el color de los textos */
+/* div{
+    background-color: skyblue;
+    width: 200;
+    height: 50;
+}
+
+h1 {
+    color: #03a9eb;
+}
+
+h3{
+    color: hsl(50, 100%, 50%);
+}  */
+
+/* Esto sirve para darle estilos al texto
+div{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+} */
