@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0 auto;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --var-color-enlace: #494949
+}
+
+body {
+    background-image: url("../images/bg-body.png");
+}
+
+a{
+    color: white;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
