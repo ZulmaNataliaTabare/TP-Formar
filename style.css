@@ -1,33 +1,29 @@
-
 /* Comentario ctrl + ]*/
 
-/* .rojo {
+.rojo {
     color: red;
-} con el punto elijo class
+}
 
-p.rojo {
+con el punto elijo class p.rojo {
     text-align: center;
 }
 
-.fondo-verde{
+.fondo-verde {
     background-color: green;
 }
 
-p,h3{
+p,
+h3 {
     color: rgb(4, 0, 255);
-} puedo combinar
+}
 
-h1{
+puedo combinar h1 {
     color: brown
-} 
-
-#título-principal{
-}   con # eligo los ID
-*/
+}
 
 
 /* Esto sirve para formatear el color de los textos */
-/* div{
+div {
     background-color: skyblue;
     width: 200;
     height: 50;
@@ -37,19 +33,22 @@ h1 {
     color: #03a9eb;
 }
 
-h3{
+h3 {
     color: hsl(50, 100%, 50%);
-}  */
+}
 
-/* Esto sirve para darle estilos al texto
-div{
+/* Esto sirve para darle estilos al texto */
+div {
     width: 500px;
     height: 200px;
     border: 2px solid black;
     padding: 10px;
 }
 
-h2{
+h2 {
     text-align: center;
-} */
+}
 
+h4{
+    font: Arial 20px bold italic overline center;
+}
