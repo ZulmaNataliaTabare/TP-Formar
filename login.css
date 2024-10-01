@@ -96,14 +96,6 @@ p {
     text-align: center;
 }
 
-.burger-menu {
-    width: 1em;
-    border-radius: 2px;
-    background-color: var(--color-secundario);
-    margin: auto;
-    box-sizing: border-box;
-}
-
 .placeholder {
     text-align: center;
 }
