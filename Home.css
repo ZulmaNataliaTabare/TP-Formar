@@ -13,17 +13,23 @@
     --tamano-img: 177px;
     --tamano-article: 200px;
     --tamano-icono: 2em;
-
 }
+
+
 
 html {
     background-color: var(--color-grisclaro);
 }
 
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
 header {
     background-color: var(--color-principal);
     color: var(--color-fuente);
-    margin: auto;
+    margin: -7px -7px  0 -7px;
+    
     box-sizing: border-box;
 }
 
@@ -39,7 +45,7 @@ header {
 
 
 .links,
-.center {
+.center, p {
     font-size: var(--texto-cuerpo);
 }
 
@@ -57,6 +63,7 @@ header {
 
 .burger-menu {
     width: 1em;
+    border-radius: 2px;
     background-color: var(--color-secundario);
     margin: auto;
     box-sizing: border-box;
@@ -123,10 +130,31 @@ footer {
 
 }
 
-.Copyright {
-    margin-left: 0;
+.footer{
+    text-align: center;
+    color:var(--color-grisoscuro);
+    margin-left: 50px;
+    margin-right: 50px;
+
 }
 
-article {
-    text-align: center;
+.title-footer{
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
 }
+
+p {
+    margin-bottom: 40px;
+}
+
+.Copyright {
+    color: var(--color-grisoscuro);
+    margin-left: 10px;
+}
+
+article{
+    text-align: center;
+    color:var(--color-grisoscuro);
+}
+
