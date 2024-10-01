@@ -37,7 +37,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: stretch;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: stretch;
     box-sizing: border-box;
 }
@@ -46,12 +46,6 @@ header {
     text-align: center;
     margin-right: 20px;
     padding: 3px;
-}
-
-.size-placeholder {
-    border-style: none;
-    border-radius: 2px;
-    height: 22px;
 }
 
 .search-button {
@@ -72,6 +66,14 @@ header {
     font-size: small;
     width: 300em;
     box-sizing: border-box;
+}
+
+article {
+    text-align: center;
+    color: var(--color-grisoscuro);
+    height: 100px;
+    margin-top: 10px;
+
 }
 
 .links,
@@ -97,7 +99,13 @@ p {
 }
 
 .placeholder {
+    display: flex;
     text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    border-style: none;
+    border-radius: 2px ;
 }
 
 .font-size {
@@ -145,7 +153,3 @@ p {
     margin-left: 10px;
 }
 
-article {
-    text-align: center;
-    color: var(--color-grisoscuro);
-}
