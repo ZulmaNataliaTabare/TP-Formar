@@ -24,10 +24,9 @@
             </div>
             <div>
                 <form>
-                    <input class="size-placeholder" type="search" placeholder="Buscar productos, marcas"> <span><button
-                            class="search-button" type="submit"><i
-                                class="fa-solid fa-magnifying-glass"></i></button></span>
-
+                    <input class="size-placeholder" type="search" placeholder="Buscar productos, marcas">
+                    <span><button class="search-button" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i></button></span>
                 </form>
             </div>
             <div class="hand-buy">
@@ -40,7 +39,7 @@
 
         <nav class="header-nav">
             <div>
-                <ul class="links">
+                <ul>
 
                     <li><a href="https://www.mercadolibre.com.ar/ofertas#nav-header" target="_blank">Ofertas</a>
                     </li>
@@ -51,13 +50,12 @@
                     <li><a href="https://www.mercadolibre.com.ar/syi/core/list#nav-header" target="_blank">Vender</a>
                     </li>
 
-
                     <li><a href="https://www.mercadolibre.com.ar/ayuda" target="_blank">Ayuda</a></li>
 
                 </ul>
             </div>
             <div>
-                <ul class="links">
+                <ul>
 
                     <li><a href="register.html" target="_blank">Creá tu cuenta<i class="fa-solid fa-id-card"></i></a>
                     </li>
@@ -80,15 +78,17 @@
     </header>
     <main>
 
-        <article>
+        <article class="form">
 
             <form class="placeholder" action="Home.html" method="get">
 
-                <div><label for="NombreUsuario"></label>
-                    <input id="NombreUsuario" type="text" placeholder="Nombre de usuari@" name="Nombre de usuari@">
+                <div><label class="username" for="nombre_usuario"></label>
+                    <input id="nombre_usuario" type="text" placeholder="Nombre de usuari@" name="nombre_usuario"
+                        class="username">
                 </div>
-                <div><label for="Contrasena"></label>
-                    <input id="Contrasena" type="password" placeholder="Ingrese su Contraseña" name="Contrasena">
+                <div><label class="password" for="Contrasena"></label>
+                    <input id="Contrasena" type="password" placeholder="Ingrese su Contraseña" name="Contrasena"
+                        class="password">
                 </div>
                 <div><button class="send-button" type="submit">Enviar</button></div>
 
@@ -96,11 +96,11 @@
 
         </article>
     </main>
-    
-    
-    <footer>
 
-        <section class="footer">
+
+    <footer class="login-footer">
+
+        <section class="footer-login">
 
             <div class="icon-size"><i class="fa-solid fa-credit-card"></i></div>
             <h4 class="title-footer">Pagá con tarjeta o en efectivo</h4>
@@ -108,26 +108,26 @@
                 interés con tarjeta o efectivo en puntos de
                 pago. ¡Y siempre es seguro!</p>
         </section>
-        <section class="footer">
+        <section class="footer-login">
 
-            <div class="icon-size"><i class="fa-solid fa-gift"></i></i></div>
-            <h4 class="title-footer">Envío gratis desde $ 2.500</h4>
+            <div class="icon-size-login"><i class="fa-solid fa-gift"></i></i></div>
+            <h4 class="title-footer-login">Envío gratis desde $ 2.500</h4>
             <p>Solo por estar registrad@ en Mercado Liebre
                 tenés envíos gratis en miles de productos. Es
                 un beneficio de Mercado Puntos.</p>
 
         </section>
-        <section class="footer">
-            <div class="icon-size"><i class="fa-solid fa-user-shield"></i></div>
-            <h4 class="title-footer">Seguridad de principio a fin.</h4>
-            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre,
+        <section class="footer-login">
+            <div class="icon-size-login"><i class="fa-solid fa-user-shield"></i></div>
+            <h4 class="title-footer-login">Seguridad de principio a fin.</h4>
+            <p class="p-login">¿No te gusta? ¡Devolvelo! En Mercado Liebre,
                 no hay nada que no puedas hacer, porque estás
                 siempre protegid@.</p>
 
 
         </section>
 
-        <section class="Copyright">
+        <section class="Copyright-login">
             <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
         </section>
 

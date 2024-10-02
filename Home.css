@@ -11,7 +11,7 @@
     --texto-descuentos: 16px;
     --texto-descript: 16p;
     --tamano-img: 177px;
-    --tamano-article: 200px;
+    --tamano-article: 20em;
     --tamano-icono: 2em;
 }
 
@@ -36,7 +36,7 @@ header {
 .size-placeholder {
     border-style: none;
     border-radius: 2px;
-    height: 22px;
+    height: 1.7em;
 }
 
 .search-button {
@@ -91,72 +91,100 @@ p {
     box-sizing: border-box;
 }
 
-.color-article {
-    background-color: #FFFFFF;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 2px;
-    box-sizing: border-box;
+article {
+    background-color:#ffffff;
+    text-align: center;
 }
-
-.size-article {
+    
+    .article {
     width: var(--tamano-article);
+    background-color: #FFFFFF;
+    color: var(--color-grisoscuro);
+    margin-bottom: 1em;
+    text-align: center;
     box-sizing: border-box;
-}
+    }
+    
+    .contenedor-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1em;
+        margin-bottom: 5em;
+        box-sizing: border-box;
+    }
 
-.flex-container {
+    .info-producto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    }
+    
+    .img-camion {
+    width: 2em; /* Ajusta el tamaño de la imagen del camión */
+    height: 2em;
+    margin-right: 0.5em;
+    margin-bottom: 5em;
+    box-sizing: border-box;
+    }
+    
+    .flex-container {
     display: flex;
     flex-wrap: wrap;
-}
-
-
-.flex-container>div {
+    flex-direction: column;
+    align-items: flex-start;
+    margin:0.5em;
+    box-sizing: border-box
+    }
+    
+    .flex-container > div {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     box-sizing: border-box;
-
-}
-
-.font-size {
-    font-size: var(--texto-titulares);
-    text-align: center;
-}
-
-.precio {
+    }
+    
+    .precio {
     font-size: var(--texto-precios);
-}
-
-.desc {
+    margin-bottom: 0.5em;
+    }
+    
+    .desc {
     font-size: var(--texto-descuentos);
     color: var(--color-desc);
-}
-
-.descr {
+    margin-bottom: 5em
+    }
+    
+    .descr {
     font-size: var(--texto-descript);
-}
+    text-align: center;
+    text-align: center;
+    margin-bottom: 5em;
+    }
+
 
 .icon-size {
     display: contents;
     color: #1259c3;
-    margin-bottom: 10px;
+    margin-bottom: 2em;
     width: var(--tamano-icono);
     box-sizing: border-box;
 }
 
 footer {
-    background-color: #FFFFFF;
-    margin-top: -10px;
-    padding-top: 50px;
+    background-color: #ffffff;
+    margin-top: 0em;
     box-sizing: border-box;
 
 }
 
 .footer {
     text-align: center;
-    color: var(--color-grisoscuro);
+    color:var(--color-grisoscuro);
     margin-left: 50px;
     margin-right: 50px;
+    box-sizing: border-box;
 
 }
 
@@ -168,14 +196,12 @@ footer {
 
 p {
     margin-bottom: 40px;
+    box-sizing: border-box;
 }
 
 .Copyright {
     color: var(--color-grisoscuro);
     margin-left: 10px;
+    box-sizing: border-box;
 }
 
-article {
-    text-align: center;
-    color: var(--color-grisoscuro);
-}
