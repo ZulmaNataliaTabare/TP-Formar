@@ -28,21 +28,26 @@ header {
     box-sizing: border-box;
 }
 
-ul, li, a{ 
+ul{  
     list-style-type: none;
     text-align: left;
     text-decoration-line: none;
+}
+
+a {
+    text-decoration: none;
     color: var(--color-fuente);
 }
 .header-nav {
-    display: inline-block;
-    align-content: stretch;
+    font-size:small;
+    display: inline-flex;
     box-sizing: border-box;
 }
 .header-nav1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     align-content: stretch;
     align-items: stretch;
     margin: auto;
@@ -84,7 +89,7 @@ ul, li, a{
 
 }
 
-.burger-menu {
+.burger-menu-login {
     display: none;
     background-color: var(--color-secundario);
     color: #ebebeb;

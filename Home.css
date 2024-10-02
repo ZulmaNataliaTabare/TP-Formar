@@ -123,10 +123,12 @@ article {
     }
     
     .img-camion {
-    width: 2em; /* Ajusta el tamaño de la imagen del camión */
-    height: 2em;
-    margin-right: 0.5em;
-    margin-bottom: 5em;
+    width: 3em; 
+    height: 3em;
+    border-style:solid;
+    border-radius: 5em;
+    color: var(--color-desc);
+    padding: 0.5em;
     box-sizing: border-box;
     }
     
