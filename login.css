@@ -6,7 +6,7 @@
     --color-grisclaro: #ebebeb;
     --texto-cuerpo: 12px;
     --texto-titulares: 24px;
-    --texto-descript: 16p;
+    --texto-descript: 16px;
     --tamano-img: 120px;
     --tamano-icono: 2em;
 }
@@ -124,7 +124,7 @@ a {
 .send-button{
     background-color: #1259c3;
     color: #FFFFFF;
-    border-bottom-color: none;
+    border-bottom-style: none;
     border-style: none;
     border-radius: 2px;
     width: 21.5em;
@@ -133,9 +133,6 @@ a {
 }
 
 
-.font-size {
-    font-size: var(--texto-titulares);
-    text-align: center;
-}
+
 
 

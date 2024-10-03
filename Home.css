@@ -9,7 +9,7 @@
     --texto-titulares: 24px;
     --texto-precios: 18px;
     --texto-descuentos: 16px;
-    --texto-descript: 16p;
+    --texto-descript: 16px;
     --tamano-img: 177px;
     --tamano-article: 20em;
     --tamano-icono: 2em;
@@ -91,11 +91,16 @@ p {
     box-sizing: border-box;
 }
 
-article {
+.Productos {
     background-color:#ffffff;
     text-align: center;
 }
     
+.font-size {
+    font-size: var(--texto-titulares);
+    text-align: left;
+}
+
     .article {
     width: var(--tamano-article);
     background-color: #FFFFFF;
