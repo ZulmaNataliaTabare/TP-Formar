@@ -11,11 +11,55 @@
     --tamano-icono: 2em;
 }
 
+html {
+    background-color: var(--color-grisclaro);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .form-register{
     text-align: center;
     background-color: var(--color-grisclaro);
     color:var(--color-grisoscuro);
-    height: 42em;
+    height: 40em;
     margin-top: 2em;
     margin-bottom: 2em;
+}
+.p-register{
+    font-size: var(--texto-descript);
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+fieldset {
+    border:none;
+    padding: 0;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.input-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.input-columna input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.input-columna label {
+    margin-bottom: 10px;
+}
+
+.input-columna input[type="checkbox"], .input-columna label {
+    display: inline;
 }

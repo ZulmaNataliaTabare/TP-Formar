@@ -176,14 +176,16 @@ article {
 
 footer {
     background-color: #ffffff;
-    margin-top: 0em;
+    margin-top: 2em;
     box-sizing: border-box;
 
 }
 
 .footer {
+    background-color: #ffffff;
     text-align: center;
     color:var(--color-grisoscuro);
+    margin-top: 2em;
     margin-left: 50px;
     margin-right: 50px;
     box-sizing: border-box;

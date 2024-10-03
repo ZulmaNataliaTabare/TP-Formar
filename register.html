@@ -89,30 +89,48 @@
           <input id="NombreUsuario" type="text" placeholder="Nombre de Usuario" name="NombreUsuario" class="size">
           <label class="size" for="Email"></label>
           <input type="email" id="Email" placeholder="Email" name="Email" class="size">
+          <p class="p-register">Fecha de nacimiento</p>
           <label class="size" for="Nacimiento"></label>
           <input type="date" id="Nacimiento" name="Nacimiento" class="size">
-          <label class="size" for="Adress"><p class="size">Fecha de nacimiento</p></label>
+          <label class="size" for="Adress">
+
+          </label>
           <input type="text" id="Adress" placeholder="Domicilio" name="Adress" class="size">
       </article>
-      <p class="size">Perfil de usuario</p>
-
-      <input type="radio" name="Perfil de Usuario" id="Comprar">Comprador
-      <input type="radio" name="Perfil de Usuario" id="Vender">Vendedor
-
-      <p class="size">Intereses</p>
-
-      <input type="checkbox" name="Perfil de Usuario" id="Electro">Electro
-      <input type="checkbox" name="Perfil de Usuario" id="Moda">Moda
-      <input type="checkbox" name="Perfil de Usuario" id="Hogar">Hogar
-      <input type="checkbox" name="Perfil de Usuario" id="Juguetería">Juguetería
-      <input type="checkbox" name="Perfil de Usuario" id="VidaSana">Vida sana
-
-      <p class="size">Cargue su foto de perfil</p>
-      <input class="size" type="file" name="avatar" id="avatar" accept="image/jpeg, image/png">
 
 
+      <p class="p-register">Perfil de usuario</p>
 
-      <form class="placeholder" action="Home.html" method="get">
+      <input type="radio" name="perfil-usuario" id="Comprar">Comprador
+      <input type="radio" name="perfil-usuario" id="Vender">Vendedor
+
+
+      <fieldset>
+
+        <legend class="p-register">Intereses</legend>
+
+        <div class="input-columna">
+          <label for="electro"><input type="checkbox" name="Intereses" id="electro" value="electro">Electro</label>
+
+          <label for="moda"><input type="checkbox" name="Intereses" id="moda" value="moda">Moda</label>
+
+
+          <label for="hogar"><input type="checkbox" name="Intereses" id="hogar" value="hogar">Hogar</label>
+
+
+          <label for="jugueteria"><input type="checkbox" name="Intereses" id="jugueteria"
+              value="jugueteria">Juguetería</label>
+
+
+          <label for="vidasana"><input type="checkbox" name="Intereses" id="vidasana" value="vidasana">Vida
+            sana</label>
+
+        </div>
+      </fieldset>
+
+
+
+      <form class="placeholder">
 
         <div><label class="size" for="nombre_usuario"></label>
           <input id="nombre_usuario" type="text" placeholder="Nombre de usuari@" name="nombre_usuario" class="size">

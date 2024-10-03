@@ -114,11 +114,12 @@ a {
     font-size: var(--texto-descript);
     border-style: none;
     border-radius: 2px;
-    width: 18em;
-    height: 1.7em;
+    width: 18em !important;
+    height: 1.7em !important;
     margin-bottom: 1em;
     box-sizing: border-box;
 }
+
 
 .send-button{
     background-color: #1259c3;
