@@ -4,105 +4,171 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registro</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/95801be2e2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Register</title>
+
 </head>
 
 <body>
   <header>
+    <nav class="header-nav1">
 
-    <a href="Home.html"><img src="images/logo-mercado-liebre.svg" alt="Logo" width="300"></a>
-
-    <form action="Home.html">
-      <div style="text-align: center;"><a><b>Buscar: </b></a> <input type="text" placeholder=""></div>
-      <br>
-    </form>
-    <div style="text-align: center;"><img src="images/credit-card.png" alt="img credit credit-card"
-        width="200"></div><br>
-    <p><b>Compras en cuotas y sin tarjetas de crédito</b></p><br>
-
-
-    <nav>
-      <ul>
-        <li class="Lista"><a href="https://www.mercadolibre.com.ar/ofertas#nav-header" target="_blank">Ofertas</a></li>
-        <li class="Lista"><a href="https://www.mercadolibre.com.ar/tiendas-oficiales" target="_blank">Tiendas
-            oficiales</a></li>
-        <li class="Lista"><a href="https://www.mercadolibre.com.ar/syi/core/list#nav-header" target="_blank">Vender</a>
-        </li>
-        <li class="Lista"><a href="https://www.mercadolibre.com.ar/ayuda" target="_blank">Ayuda</a></li>
-      </ul>
-
-      <ul>
-        <li class="Lista"><a href="register.html" target="_blank"> Creá tu usuario</a></li>
-        <li class="Lista"><a href="login.html" target="_blank"> Ingresá</a></li>
-        <li class="Lista"><a href="https://myaccount.mercadolibre.com.ar/purchases/list#nav-header" target="_blank">Mis
-            compras</a></li>
-      </ul>
+      <div class="img-size">
+        <img src="images/logo-mercado-liebre.svg" alt="Logo">
+      </div>
+      <div>
+        <form>
+          <input class="size-placeholder" type="search" placeholder="Buscar productos, marcas">
+          <span><button class="search-button" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i></button></span>
+        </form>
+      </div>
+      <div class="hand-buy">
+        <i class="fa-solid fa-hand-holding-dollar"></i>Compras en cuotas y sin tarjetas de crédito
+      </div>
 
     </nav>
+
+
+
+    <nav class="header-nav">
+      <div>
+        <ul>
+
+          <li><a href="https://www.mercadolibre.com.ar/ofertas#nav-header" target="_blank">Ofertas</a>
+          </li>
+
+          <li><a href="https://www.mercadolibre.com.ar/tiendas-oficiales" target="_blank">Tiendas
+              oficiales</a></li>
+
+          <li><a href="https://www.mercadolibre.com.ar/syi/core/list#nav-header" target="_blank">Vender</a>
+          </li>
+
+          <li><a href="https://www.mercadolibre.com.ar/ayuda" target="_blank">Ayuda</a></li>
+
+        </ul>
+      </div>
+      <div>
+        <ul>
+
+          <li><a href="register.html" target="_blank">Creá tu cuenta<i class="fa-solid fa-id-card"></i></a>
+          </li>
+
+
+          <li><a href="login.html" target="_blank">Ingresá<i class="fa-solid fa-right-to-bracket"></i></a>
+          </li>
+
+          <li><a href="https://myaccount.mercadolibre.com.ar/purchases/list#nav-header" target="_blank">Mis
+              compras<i class="fa-solid fa-basket-shopping"></i></a></li>
+
+        </ul>
+      </div>
+
+    </nav>
+    <div class="burger-menu-login">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
   </header>
+
+
   <main>
 
     <h3>Registro</h3>
 
     <form action="Home.html" method="get">
-      <label for="nombre">Ingrese su nombre y apellido</label>
-      <input type="text" id="nombre" placeholder="Ingrese su nombre y apellido" size="25" name="nombre y apellido"><br>
-      <label for="NombreUsuario">Ingrese su nombre de usuari@</label>
-      <input id="NombreUsuario" type="text" placeholder="Ingrese su nombre de usuari@" size="25"
-        name="NombreUsuario"><br>
-      <label for="Email">Ingrese su Email</label>
-      <input type="email" id="Email" placeholder="Ingrese su Email" name="Email"><br>
-      <label for="Nacimiento">Ingrese su fecha de Nacimiento</label>
-      <input type="date" id="Nacimiento" name="Nacimiento"><br>
-      <label for="Adress">Ingrese su dirección</label>
-      <input type="text" id="Adress" placeholder="Ingrese su dirección" name="Adress"><br>
+      <label for="nombre"></label>
+      <input type="text" id="nombre" placeholder="Nombre y apellido" name="nombre_apellido">
+      <label for="NombreUsuario"></label>
+      <input id="NombreUsuario" type="text" placeholder="Nombre de Usuario" name="NombreUsuario">
+      <label for="Email"></label>
+      <input type="email" id="Email" placeholder="Email" name="Email">
+      <label for="Nacimiento">Fecha de nacimiento</label>
+      <input type="date" id="Nacimiento" name="Nacimiento">
+      <label for="Adress"></label>
+      <input type="text" id="Adress" placeholder="Domicilio" name="Adress">
 
-      <p><b>¿Qué desea hacer?</b></p>
+      <p>Perfil de usuario</p>
 
-      <input type="radio" name="Perfil de Usuario" id="Comprar">Comprar
-      <input type="radio" name="Perfil de Usuario" id="Vender">Vender<br>
+      <input type="radio" name="Perfil de Usuario" id="Comprar">Comprador
+      <input type="radio" name="Perfil de Usuario" id="Vender">Vendedor
 
-      <p><b>Categorías de interés (puede elegir más de una)</b></p>
+      <p>Intereses</p>
 
       <input type="checkbox" name="Perfil de Usuario" id="Electro">Electro
       <input type="checkbox" name="Perfil de Usuario" id="Moda">Moda
       <input type="checkbox" name="Perfil de Usuario" id="Hogar">Hogar
       <input type="checkbox" name="Perfil de Usuario" id="Juguetería">Juguetería
-      <input type="checkbox" name="Perfil de Usuario" id="VidaSana">Vida sana<br>
+      <input type="checkbox" name="Perfil de Usuario" id="VidaSana">Vida sana
 
-      <p><b>Cargue su foto de perfil</b></p>
-      <input type="file" name="avatar" id="avatar" accept="image/jpeg, image/png"><br>
+      <p>Cargue su foto de perfil</p>
+      <input type="file" name="avatar" id="avatar" accept="image/jpeg, image/png">
       <br>
-      <label for="Contrasena">Ingrese su Contraseña</label>
-      <input id="Contrasena" type="password" placeholder="Ingrese su Contraseña" name="Contrasena">
-      <label for="password">Confirme su contraseña</label>
-      <input id="password" type="password" placeholder="Confirme su Contraseña" name="password"><br>
-      <br>
-      <button type="submit">Enviar</button><br>
-      <br>
-      <input type="reset" value="Borrar">
+      
+      <article class="form">
 
+        <form class="placeholder" action="Home.html" method="get">
+
+            <div><label class="username" for="nombre_usuario"></label>
+                <input id="nombre_usuario" type="text" placeholder="Nombre de usuari@" name="nombre_usuario"
+                    class="username">
+            </div>
+            <div><label class="password" for="Contrasena"></label>
+                <input id="Contrasena" type="password" placeholder="Ingrese su Contraseña" name="Contrasena"
+                    class="password">
+            </div>
+            <div><button class="send-button" type="submit">Enviar</button></div>
+
+        </form>
+
+    </article>
     </form>
+  
   </main>
+  
   <footer>
 
-    <h4>Pagá con tarjeta o en efectivo</h4>
-    <p>Con Mercado Liebre Cash, tenés cuotas sin <br>
-      interés con tarjeta o efectivo en puntos de <br>
-      pago. ¡Y siempre es seguro!</p>
-    <h4>Envío gratis desde $ 2.500</h4>
-    <p>Solo por estar registrad@ en Mercado Liebre <br>
-      tenés envíos gratis en miles de productos. Es <br>
-      un beneficio de Mercado Puntos.</p>
-    <h4>Seguridad de principio a fin.</h4>
-    <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, <br>
-      no hay nada que no puedas hacer, porque estás <br>
-      siempre protegid@.</p>
-    <br>
-    <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    <section class="footer">
 
-  </footer>
+        <div class="icon-size"><i class="fa-solid fa-credit-card"></i></div>
+        <h4 class="title-footer">Pagá con tarjeta o en efectivo</h4>
+        <p>Con Mercado Liebre Cash, tenés cuotas sin
+            interés con tarjeta o efectivo en puntos de
+            pago. ¡Y siempre es seguro!</p>
+    </section>
+    
+    <section class="footer">
+
+        <div class="icon-size"><i class="fa-solid fa-gift"></i></i></div>
+        <h4 class="title-footer">Envío gratis desde $ 2.500</h4>
+        <p>Solo por estar registrad@ en Mercado Liebre
+            tenés envíos gratis en miles de productos. Es
+            un beneficio de Mercado Puntos.</p>
+
+    </section>
+    <section class="footer">
+        <div class="icon-size"><i class="fa-solid fa-user-shield"></i></div>
+        <h4 class="title-footer">Seguridad de principio a fin.</h4>
+        <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre,
+            no hay nada que no puedas hacer, porque estás
+            siempre protegid@.</p>
+
+
+    </section>
+
+    <section class="Copyright">
+        <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    </section>
+
+</footer>
+
+
 </body>
 
 </html>
