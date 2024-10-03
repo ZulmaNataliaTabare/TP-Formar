@@ -119,13 +119,13 @@ p {
         box-sizing: border-box;
     }
 
-    .info-producto {
+    /* .info-producto {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 0.5em;
     box-sizing: border-box;
-    }
+    } */
     
     .img-camion {
     width: 3em; 
@@ -142,7 +142,9 @@ p {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
-    margin:0.5em;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    margin-bottom: 10px;
     box-sizing: border-box
     }
     
@@ -164,6 +166,7 @@ p {
     }
     
     .descr {
+    display:none;
     font-size: var(--texto-descript);
     text-align: center;
     text-align: center;

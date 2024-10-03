@@ -37,6 +37,7 @@ a {
     text-decoration: none;
     color: var(--color-fuente);
 }
+
 .header-nav {
     font-size:small;
     display: inline-flex;
