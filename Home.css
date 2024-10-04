@@ -29,8 +29,13 @@ header {
     background-color: var(--color-principal);
     color: var(--color-fuente);
     margin: -7px -7px 0 -7px;
-
     box-sizing: border-box;
+}
+
+.banner{
+    width:100%;
+    height: auto;
+    margin-bottom: -1em;
 }
 
 .size-placeholder {
@@ -59,6 +64,9 @@ header {
     box-sizing: border-box;
 }
 
+.nav-1 {
+    display:none ;
+}
 
 .links,
 .center,
@@ -118,14 +126,6 @@ p {
         margin-bottom: 5em;
         box-sizing: border-box;
     }
-
-    /* .info-producto {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 0.5em;
-    box-sizing: border-box;
-    } */
     
     .img-camion {
     width: 3em; 
@@ -156,6 +156,8 @@ p {
     
     .precio {
     font-size: var(--texto-precios);
+    color:var(--color-grisoscuro);
+    font-weight: bold;
     margin-bottom: 0.5em;
     }
     
@@ -167,8 +169,8 @@ p {
     
     .descr {
     display:none;
+    color:var(--color-grisoscuro);
     font-size: var(--texto-descript);
-    text-align: center;
     text-align: center;
     margin-bottom: 5em;
     }
