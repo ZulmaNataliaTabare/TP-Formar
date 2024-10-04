@@ -2,6 +2,8 @@
 @import'login.css';
 @import'register.css';
 
+
+@media (max-width: 768px){
 main {
     width: 90%;
     margin: auto;
@@ -24,7 +26,7 @@ main {
 .burger-menu-login {
     display: block;
 }
-
+}
 
 /* para navegación en tablets y desktop*/ 
 
@@ -46,6 +48,7 @@ main {
 
 
     .nav-1 {
+        position: relative;
         display: block ;
     }
 
@@ -55,6 +58,7 @@ main {
     }
 
     .header-nav, .header-nav1 {
+        position: relative;
         display: block;
     }
 
@@ -78,6 +82,7 @@ main {
 
 
     .nav-1 {
+        position: relative;
         display: block ;
     }
 
@@ -87,6 +92,7 @@ main {
     }
 
     .header-nav, .header-nav1 {
+        position: relative;
         display: block;
     }
 
