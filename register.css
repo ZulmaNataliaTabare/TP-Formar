@@ -1,15 +1,6 @@
-:root {
-    --color-principal: #EAC926;
-    --color-secundario: #1259c3;
-    --color-fuente: #03264C;
-    --color-grisoscuro: #666;
-    --color-grisclaro: #ebebeb;
-    --texto-cuerpo: 12px;
-    --texto-titulares: 24px;
-    --texto-descript: 16px;
-    --tamano-img: 120px;
-    --tamano-icono: 2em;
-}
+
+@import "variables.css";
+
 
 html {
     background-color: var(--color-grisclaro);
