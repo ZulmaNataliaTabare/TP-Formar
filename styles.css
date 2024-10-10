@@ -122,5 +122,31 @@
         .burger-menu-login, .burger-menu {
             display: none;
         }
-    }
+
+        /* footer tp07 */
+
+        footer{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .footer{
+            margin: 0;
+            width: 30%;
+        }
+
+        .icon.size{
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+
+        .title-footer{
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
     
+        .icon-size:hover{
+            color: #0096c7;
+        }
+    }
