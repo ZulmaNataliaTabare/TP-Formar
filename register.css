@@ -1,7 +1,6 @@
 
 @import "variables.css";
 
-
 html {
     background-color: var(--color-grisclaro);
 }
@@ -42,7 +41,6 @@ fieldset {
 }
 
 
-
 .input-columna input[type="checkbox"] {
     margin-right: 10px;
 }
@@ -54,3 +52,4 @@ fieldset {
 .input-columna input[type="checkbox"], .input-columna label {
     display: inline;
 }
+
