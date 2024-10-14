@@ -1,3 +1,7 @@
+@import "index.css"; 
+@import "contact.css";
+
+
 
 /* NORMALIZACIÓN */
 
@@ -8,7 +12,7 @@
     font-family: "Orbitron", sans-serif;
     list-style-type: none;
     text-decoration: none;
-    color:white;
+    color:rgb(214, 10, 146);
 }
 
 body {
