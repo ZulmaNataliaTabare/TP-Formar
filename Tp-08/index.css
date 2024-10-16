@@ -3,7 +3,7 @@ header{
     position:fixed;
     right:0;
     top:0;
-    z-index: 100;
+    z-index: 1000;
     width: 100%;
     display: flex;
     font-weight: bold;
@@ -153,6 +153,7 @@ section{
 }
 .scroll-down i{
     display: block;
+    margin-bottom: 20px;
     padding: 12px;
     font-size: 25px;
     background-color: rgb(238, 144, 218);
@@ -162,4 +163,104 @@ section{
 
 .scroll-down i:hover{
     transform: translateY(-5px)
+}
+
+.proyectos{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+.proyecto-img{
+    width: 400px;
+    border-radius: 10%;
+    margin: 10px 0 0 10%;
+    height: auto;
+}
+
+
+.proyecto-img:hover{
+    box-shadow: 0px 0px 10px rgb(235, 3, 243);
+}
+
+/* .proyecto-text{
+    text-align: justify;
+    font-size: 80%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 1.9;
+} */
+
+.contenedor-img {
+    position: relative;
+    width: 400px; 
+    height: auto;
+    display: inline-block; /* Asegura que cada contenedor se mantenga separado */
+    margin: 10px; /* da Espacio entre las imágenes */
+    vertical-align: top;
+}
+
+.contenedor-img img {
+    width: 100%;
+    height: auto;
+}
+
+.proyecto-text {
+    text-align: justify;
+    font-size: 80%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 1.9;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out; /*suaviza la transición de la opacidad */
+}
+
+
+
+.contenedor-img:hover .proyecto-text {
+    opacity: 1;
+    animation: typing 4s steps(40, end) 1, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+
+button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(238, 144, 218);;
+    color: rgb(214, 10, 146);;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition:  background-color 0.3s ease; 
+}
+
+
+button:hover {
+    background-color: #b30095; 
 }
