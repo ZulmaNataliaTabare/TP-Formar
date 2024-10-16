@@ -60,7 +60,7 @@ input, textarea{
     .redes-contact i {
         margin: 0 10px;
         font-size: 45px;
-        color:rgb(235, 3, 243)
+        color:rgb(235, 3, 243);
         text-decoration: none;
         transition: all .5s ease;
     }
@@ -68,6 +68,7 @@ input, textarea{
     .redes-contact i:hover {
         color: #f0a5d9; 
         transform: rotateY('-5px');
+    }
     
     /* .redes i{
         display: block;
@@ -80,4 +81,3 @@ input, textarea{
         color: rgb(235, 3, 243);
         transform: translateY(-5px)
     } */
-
